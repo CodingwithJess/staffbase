@@ -32,3 +32,5 @@ const DataArea = () => {
   }
 
 }
+
+export default DataArea;
