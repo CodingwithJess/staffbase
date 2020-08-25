@@ -33,19 +33,34 @@ const DataArea = () => {
 
   const compareFunction = (a, b) => {
     if (developerState.order === "ascend"){
-      if(a[heading] === undefined){
+      if(a[heading] === undefined) {
         return 1;
-      }else if (b[heading] === undefined) {
+      } else if (b[heading] === undefined) {
         return -1;
-      }else if (heading === "name"){
+      } else if (heading === "name"){
         return(a[heading].first.localeCompare(b[heading].first))
-      }else {
+      } else {
         return b[heading] - a[heading];
       }
     }else {
-      if (a[heading])
-    }
-  }
+      if (a[heading] === undefined) {
+        return 1;
+      } else if (b [heading] === undefined) {
+        return -1;
+      } else if (heading === "name") {
+        return (b[heading].first.localeCompare(a[heading].first));
+      } else {
+        return b[heading] - a[heading];
+      };
+    };
+  };
+
+  const sortedUsers = developerState.filteredUsers.sort(compareFunction);
+
+  setDeveloperState({
+    ...developerState,
+    filteredUsers: sortedUsers
+  });
 
 }
 
