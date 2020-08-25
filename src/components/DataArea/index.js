@@ -28,6 +28,22 @@ const DataArea = () => {
       setDeveloperState({
         order: "descend"
       })
+    };
+  };
+
+  const compareFunction = (a, b) => {
+    if (developerState.order === "ascend"){
+      if(a[heading] === undefined){
+        return 1;
+      }else if (b[heading] === undefined) {
+        return -1;
+      }else if (heading === "name"){
+        return(a[heading].first.localeCompare(b[heading].first))
+      }else {
+        return b[heading] - a[heading];
+      }
+    }else {
+      if (a[heading])
     }
   }
 

@@ -1,8 +1,8 @@
-// import axios for "axios";
+import axios from "axios";
 
-// export default {
-//   // get all users function
-//   getUsers: function()=>{
-//     return axios.get("https:/randomuser.me/api/?results=200&nat=us")
-//   }
-// };
+export default {
+  // get all users function
+  getUsers: function(){
+    return axios.get("https:/randomuser.me/api/?results=200&nat=us")
+  }
+};
