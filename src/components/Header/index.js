@@ -4,10 +4,10 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <h1>Employee Directory</h1>
+      <h1>StaffBase</h1>
       <p>
-        Click on each heading to filter or use the search box to narrow your
-        results
+        Click on name heading to sort or use the search box to narrow your
+        results!
       </p>
     </div>
   );
