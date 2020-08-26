@@ -39,7 +39,7 @@ const DataArea = () => {
         } else if (heading === "name") {
           return a[heading].first.localeCompare(b[heading].first);
         } else {
-          return b[heading] - a[heading];
+          return a[heading] - b[heading];
         }
       } else {
         if (a[heading] === undefined) {
@@ -73,7 +73,7 @@ const DataArea = () => {
       filteredUsers: filteredList,
     });
   };
-
+// on load of the page, load data from API and insert into devState
   useEffect(() => {
     API.getUsers().then((results) => {
       setDeveloperState({
@@ -82,8 +82,9 @@ const DataArea = () => {
         filteredUsers: results.data.results,
       });
     });
-  }, []);
-
+  },[]);
+  // dependancy array-
+// !What is empty array doing???
   return (
     <DataAreaContext.Provider
       value={{ developerState, handleSearchChange, handleSort }}>
