@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 import Main from './components/Main/Main';
 import Wrapper from './components/Wrapper';
-import Header from './components/Header/Header';
+import Header from "./components/Header/index";
 // import logo from './logo.svg';
 import './App.css';
 // main setup on app visually
