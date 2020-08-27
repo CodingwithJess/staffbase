@@ -1,6 +1,6 @@
 {
-  "name": "staffbase",
   "homepage": "https://codingwithjess.github.io/staffbase/",
+  "name": "staffbase",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
