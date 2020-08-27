@@ -84,7 +84,6 @@ const DataArea = () => {
     });
   },[]);
   // dependancy array-
-// !What is empty array doing???
   return (
     <DataAreaContext.Provider
       value={{ developerState, handleSearchChange, handleSort }}>
