@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/staffbase/index.html/static/css/main.d32ad2e2.chunk.css",
+    "main.js": "/staffbase/index.html/static/js/main.67c703a8.chunk.js",
+    "main.js.map": "/staffbase/index.html/static/js/main.67c703a8.chunk.js.map",
+    "runtime-main.js": "/staffbase/index.html/static/js/runtime-main.f5f5f1d4.js",
+    "runtime-main.js.map": "/staffbase/index.html/static/js/runtime-main.f5f5f1d4.js.map",
+    "static/js/2.1c998044.chunk.js": "/staffbase/index.html/static/js/2.1c998044.chunk.js",
+    "static/js/2.1c998044.chunk.js.map": "/staffbase/index.html/static/js/2.1c998044.chunk.js.map",
+    "index.html": "/staffbase/index.html/index.html",
+    "precache-manifest.60b1dfa1cf3ed60858ce71c1a8072a7f.js": "/staffbase/index.html/precache-manifest.60b1dfa1cf3ed60858ce71c1a8072a7f.js",
+    "service-worker.js": "/staffbase/index.html/service-worker.js",
+    "static/css/main.d32ad2e2.chunk.css.map": "/staffbase/index.html/static/css/main.d32ad2e2.chunk.css.map",
+    "static/js/2.1c998044.chunk.js.LICENSE.txt": "/staffbase/index.html/static/js/2.1c998044.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5f5f1d4.js",
+    "static/js/2.1c998044.chunk.js",
+    "static/css/main.d32ad2e2.chunk.css",
+    "static/js/main.67c703a8.chunk.js"
+  ]
+}
